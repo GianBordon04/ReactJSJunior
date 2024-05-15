@@ -1,0 +1,38 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  padding: 1rem;
+}
+
+header h1 {
+  color: #0ff0fc; 
+}
+
+.nav-menu {
+display: flex;
+list-style-type:none;
+gap: 0.5rem;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: #FF00FF; 
+  padding: 0.5rem 1rem;
+  transition: color 0.3s ease;
+}
+
+.nav-menu a:hover {
+  color: #39ff14; 
+}
+
+.carrito{
+color: #FF00FF;
+}
