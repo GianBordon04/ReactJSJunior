@@ -1,0 +1,112 @@
+[
+    {
+        "id": 1,
+        "nombre": "Musculosa de Entrenamiento",
+        "precio": 14.99,
+        "imagen": "https://placeholder.pics/svg/150",
+        "descripcion": "Musculosa ligera y transpirable, ideal para entrenamientos intensos.",
+        "categoria": {
+            "id": "remeras",
+            "nombre": "Remeras"
+        }
+    },
+    {
+        "id": 2,
+        "nombre": "Jogging Deportivo",
+        "precio": 29.99,
+        "imagen": "https://placeholder.pics/svg/150",
+        "descripcion": "Jogging con tejido elástico y ajustable para mayor comodidad.",
+        "categoria": {
+            "id": "pantalones",
+            "nombre": "Pantalones"
+        }
+    },
+    {
+        "id": 3,
+        "nombre": "Remera Deportiva",
+        "precio": 19.99,
+        "imagen": "https://placeholder.pics/svg/150",
+        "descripcion": "Remera de material transpirable que se adapta a tu cuerpo.",
+        "categoria": {
+            "id": "remeras",
+            "nombre": "Remeras"
+        }
+    },
+    {
+        "id": 4,
+        "nombre": "Pantalones Cortos de Gimnasio",
+        "precio": 17.99,
+        "imagen": "https://placeholder.pics/svg/150",
+        "descripcion": "Pantalones cortos ligeros y cómodos para cualquier tipo de ejercicio.",
+        "categoria": {
+            "id": "pantalones",
+            "nombre": "Pantalones"
+        }
+    },
+    {
+        "id": 5,
+        "nombre": "Camiseta Oversize",
+        "precio": 24.99,
+        "imagen": "https://placeholder.pics/svg/150",
+        "descripcion": "Camiseta de estilo oversize, perfecta para un look casual y cómodo.",
+        "categoria": {
+            "id": "remeras",
+            "nombre": "Remeras"
+        }
+    },
+    {
+        "id": 6,
+        "nombre": "Sudadera con Capucha",
+        "precio": 39.99,
+        "imagen": "https://placeholder.pics/svg/150",
+        "descripcion": "Sudadera de algodón con capucha, ideal para usar antes y después del entrenamiento.",
+        "categoria": {
+            "id": "remeras",
+            "nombre": "Remeras"
+        }
+    },
+    {
+        "id": 7,
+        "nombre": "Calzas Deportivas",
+        "precio": 22.99,
+        "imagen": "https://placeholder.pics/svg/150",
+        "descripcion": "Calzas ajustadas y elásticas para una mayor libertad de movimiento.",
+        "categoria": {
+            "id": "pantalones",
+            "nombre": "Pantalones"
+        }
+    },
+    {
+        "id": 8,
+        "nombre": "Chaqueta Deportiva",
+        "precio": 49.99,
+        "imagen": "https://placeholder.pics/svg/150",
+        "descripcion": "Chaqueta ligera y resistente al viento, ideal para exteriores.",
+        "categoria": {
+            "id": "remeras",
+            "nombre": "Remeras"
+        }
+    },
+    {
+        "id": 9,
+        "nombre": "Guantes de Entrenamiento",
+        "precio": 14.99,
+        "imagen": "https://placeholder.pics/svg/150",
+        "descripcion": "Guantes con agarre antideslizante y protección acolchada.",
+        "categoria": {
+            "id": "accesorios_gimnasio",
+            "nombre": "Accesorios de Gimnasio"
+        }
+    },
+    {
+        "id": 10,
+        "nombre": "Cinturón de Levantamiento de Pesas",
+        "precio": 24.99,
+        "imagen": "https://placeholder.pics/svg/150",
+        "descripcion": "Cinturón de alta resistencia para mayor soporte durante el levantamiento de pesas.",
+        "categoria": {
+            "id": "accesorios_gimnasio",
+            "nombre": "Accesorios de Gimnasio"
+        }
+    }
+]

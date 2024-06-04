@@ -1,17 +1,28 @@
 import React from 'react'
+import { Link, NavLink } from "react-router-dom";
+import categories from "../../data/categorias.json";
 
-const NavBar = () => {
+export const NavBar = () => {
+
   return (
-    <div>
-      <nav className='nav'>
-      <ul className='nav-menu'>
-          <li><a href='#'>Inicio</a></li>
-          <li><a href='#'>Remeras </a></li>
-          <li><a href='#'>Camperas</a></li>
-          <li><a href='#'>Musculosas</a></li>
-        </ul>
-      </nav>
-    </div>
+    <nav className="nav">
+      <ul className="nav-menu">
+        <li className="nav-item">
+          <NavLink to="/" activeclassname="active" className="nav-link">Inicio</NavLink>
+        </li>
+        {
+          categories.map((category) => {
+            return (
+              <li className="nav-item" key={category.id}>
+                <NavLink to={`/category/${category.id}`} activeclassname="active" className="nav-link">
+                  {category.nombre}
+                </NavLink>
+              </li>
+            )
+          })
+        }
+      </ul>
+    </nav>
   )
 }
 
